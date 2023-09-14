@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="countdowncss.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div class="countdown">
+            <div class="countdown-item">
+                <span id="days">0</span>
+                <span>Days</span>
+            </div>
+            <div class="countdown-item">
+                <span id="hours">0</span>
+                <span>Hours</span>
+            </div>
+            <div class="countdown-item">
+                <span id="minutes">0</span>
+                <span>Minutes</span>
+            </div>
+            <div class="countdown-item">
+                <span id="seconds">0</span>
+                <span>Seconds</span>
+            </div>
+        </div>
+        <div class="input-container">
+            <input type="datetime-local" id="targetDate">
+            <button id="startCountdown">Start Countdown</button>
+        </div>
+    </div>
+    <script src="countdownjs.js"></script>
+</body>
+</html>
